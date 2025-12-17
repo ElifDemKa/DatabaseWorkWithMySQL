@@ -109,6 +109,9 @@ soyadi VARCHAR(20),
 dogum_tarihi DATE,
 maas INT
 );
+ALTER TABLE personel
+ADD COLUMN pozisyon VARCHAR(30);
+
 
 SELECT * FROM personel;
 
